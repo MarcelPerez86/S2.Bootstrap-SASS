@@ -2,7 +2,55 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+// Almacenando en variables los nuevos colores
+$principal: #5265E1;
+$secundario: #FA5959;
+// Definiendo Nuevos colores
+$primary: $principal;
+$secondary: $secundario;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
 // Then add additional custom code here
+
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1em;
+}
+#login{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+}
+
+.margen{
+    margin-top: 10vh;
+}
+
+#navbarSupportedContent a{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/**/
+@media (max-width: 768px){
+
+    .col-12{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
