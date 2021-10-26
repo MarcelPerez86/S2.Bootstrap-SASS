@@ -11977,8 +11977,13 @@ p {
   border-radius: 5px;
 }
 
-.margen {
-  margin-top: 10vh;
+.margen-cap {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.margen-cont {
+  margin-top: 15vh;
 }
 
 #navbarSupportedContent a {
@@ -11986,13 +11991,49 @@ p {
   margin-right: 2rem;
 }
 
-/**/
+/* FEATURES TABS */
+.nav-item a {
+  color: darkgrey;
+}
+
+.nav-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  border: none;
+  margin-bottom: 5vh;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+/* QUERIES */
 @media (max-width: 768px) {
   .col-12 {
     text-align: center;
   }
   h1, .h1 {
     font-size: 2rem;
+  }
+  h3, .h3 {
+    margin-top: 5vh;
+  }
+  .nav-tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-fluid {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=custom.css.map */

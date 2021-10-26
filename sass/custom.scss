@@ -28,14 +28,20 @@ h3{
 p{
     font-size: 1em;
 }
+
 #login{
     padding-left: 10px;
     padding-right: 10px;
     border-radius:5px;
 }
 
-.margen{
-    margin-top: 10vh;
+.margen-cap{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.margen-cont{
+    margin-top: 15vh;
 }
 
 #navbarSupportedContent a{
@@ -43,7 +49,25 @@ p{
     margin-right: 2rem;
 }
 
-/**/
+
+/* FEATURES TABS */
+.nav-item a{
+    color: darkgrey;
+}
+
+.nav-tabs{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border: none;
+    margin-bottom: 5vh;
+}
+
+.nav-tabs .nav-link{
+    border: none;
+}
+
+/* QUERIES */
 @media (max-width: 768px){
 
     .col-12{
@@ -52,5 +76,18 @@ p{
 
     h1{
         font-size: 2rem;
+    }
+
+    h3{
+        margin-top: 5vh
+    }
+
+    .nav-tabs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-fluid{
+        width:80%;
     }
 }
