@@ -12012,6 +12012,21 @@ p {
   border: none;
 }
 
+/* CARDS*/
+.card {
+  -webkit-box-shadow: 1px 5px 5px 1px #dad8d8;
+          box-shadow: 1px 5px 5px 1px #dad8d8;
+  border-radius: 10px;
+}
+
+#carta2 {
+  margin-top: 50px;
+}
+
+#carta3 {
+  margin-top: 100px;
+}
+
 /* QUERIES */
 @media (max-width: 768px) {
   .col-12 {
@@ -12034,6 +12049,12 @@ p {
   }
   .img-fluid {
     width: 80%;
+  }
+  .card {
+    margin: 20px 100px;
+  }
+  #carta2, #carta3 {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=custom.css.map */
