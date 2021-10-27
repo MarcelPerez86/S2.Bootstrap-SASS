@@ -35,15 +35,6 @@ p{
     border-radius:5px;
 }
 
-.margen-cap{
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-}
-
-.margen-cont{
-    margin-top: 15vh;
-}
-
 #navbarSupportedContent a{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -81,6 +72,13 @@ p{
     margin-top: 100px;
 }
 
+/* ACORDEON*/
+
+.singleCol{
+    max-width: 50%;
+    margin-top: 5vh;
+}
+
 /* QUERIES */
 @media (max-width: 768px){
 
@@ -108,7 +106,7 @@ p{
     .card{
          margin: 20px 100px;
     }
-    
+
     #carta2, #carta3{
         margin-top: 0;
     }
