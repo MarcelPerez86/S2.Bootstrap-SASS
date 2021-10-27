@@ -179,7 +179,7 @@
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item 1</button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque natus quam nostrum ipsa sed voluptatibus quaerat modi deserunt, pariatur culpa Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis possimus maxime quia sequi quas officia vel doloremque exercitationem iure dolor.</p>
             </div>
@@ -225,7 +225,49 @@
     <div class="container d-flex justify-content-center">
       <button type="button" class="btn btn-primary text-center" style="margin-top: 5vh;">More info</button>
     </div>
-  
+
+    <!-- Footer  -->
+    <div class="container-fluid bg-primary d-flex-column p-5" style="margin-top: 5vh;">
+
+      <p class="texto-footer">35.000 + ALREADY JOINED</p>
+
+      <h3 class="texto-footer">Stay up-to-date with what we're doing</h3>
+
+      <form id="contactForm d-flex-row y-5">
+
+        <div class=" col-12 col-md-4 mb-3">
+
+          <input class="form-control col-12" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" required/>
+
+          <!-- <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div> -->
+        </div>
+      
+        <div class="">
+          <button class="btn btn-secondary btn-footer col-12" type="submit" >Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer 2 -->
+    <div class="container-fluid bg-dark p-3">
+
+      <div class="row row-cols-2 row-cols-lg-3">
+
+        <div class="col-12 col-lg-2 d-flex justify-content-center p-2">
+          <img src="/img/logo-bookmark.svg">
+        </div>
+        <div class="col-12 col-lg-1 text-light p-2">Features</div>
+        <div class="col-12 col-lg-1 text-light p-2">Pricing</div>
+        <div class="col-12 col-lg-1 text-light p-2">Contact</div>
+
+        <div class="col-12 col-lg-7 d-flex justify-content-center p-2">
+          <img src="/img/icon-facebook.svg">
+          <img src="/img/icon-twitter.svg" style="padding-left: 20px;">
+        </div>
+
+      </div>
+    </div>
 
     <!-- Scripts para que funcionen las TABS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
