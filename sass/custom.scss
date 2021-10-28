@@ -34,7 +34,21 @@ p{
 #login{
     padding-left: 10px;
     padding-right: 10px;
-    border-radius:5px;
+    color: white;
+}
+
+#login:hover{
+    background-color: white;
+    color:$secondary;
+}
+
+.btn:hover{
+    background-color: white;
+    color: $principal;
+}
+
+.singleCol button:hover{
+    color: $secundario;
 }
 
 #navbarSupportedContent a{
@@ -46,6 +60,10 @@ p{
 /* FEATURES TABS */
 .nav-item a{
     color: darkgrey;
+}
+
+.nav-item a:hover{
+    color: $secondary;
 }
 
 .nav-tabs{
@@ -97,9 +115,12 @@ form{
 }
 
 .btn-footer{
-    padding-left: 40px;
-    padding-right: 40px;
     margin-left: 20px;
+    color: white;
+}
+
+.btn-footer:hover{
+    color:$secundario
 }
 
 

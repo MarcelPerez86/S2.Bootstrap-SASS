@@ -11974,7 +11974,21 @@ p {
 #login {
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 5px;
+  color: white;
+}
+
+#login:hover {
+  background-color: white;
+  color: #FA5959;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #5265E1;
+}
+
+.singleCol button:hover {
+  color: #FA5959;
 }
 
 #navbarSupportedContent a {
@@ -11985,6 +11999,10 @@ p {
 /* FEATURES TABS */
 .nav-item a {
   color: darkgrey;
+}
+
+.nav-item a:hover {
+  color: #FA5959;
 }
 
 .nav-tabs {
@@ -12050,9 +12068,12 @@ form {
 }
 
 .btn-footer {
-  padding-left: 40px;
-  padding-right: 40px;
   margin-left: 20px;
+  color: white;
+}
+
+.btn-footer:hover {
+  color: #FA5959;
 }
 
 /* QUERIES */
