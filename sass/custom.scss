@@ -39,16 +39,12 @@ p{
 
 #login:hover{
     background-color: white;
-    color:$secondary;
+    color:$secundario;
 }
 
 .btn:hover{
     background-color: white;
     color: $principal;
-}
-
-.singleCol button:hover{
-    color: $secundario;
 }
 
 #navbarSupportedContent a{
@@ -99,6 +95,10 @@ p{
     margin-top: 5vh;
 }
 
+.singleCol button:hover{
+    color: $secundario;
+}
+
 /* FOOTER */
 
 .texto-footer{
@@ -120,9 +120,21 @@ form{
 }
 
 .btn-footer:hover{
-    color:$secundario
+    color: $secundario
 }
 
+.menu-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer:hover a{
+    color: $secondary;
+}
+
+.iconos:hover{
+    background-color: $secundario;
+}
 
 /* QUERIES */
 @media (max-width: 768px){

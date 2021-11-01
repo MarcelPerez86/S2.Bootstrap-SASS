@@ -11987,10 +11987,6 @@ p {
   color: #5265E1;
 }
 
-.singleCol button:hover {
-  color: #FA5959;
-}
-
 #navbarSupportedContent a {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -12042,6 +12038,10 @@ p {
   margin-top: 5vh;
 }
 
+.singleCol button:hover {
+  color: #FA5959;
+}
+
 /* FOOTER */
 .texto-footer {
   display: -webkit-box;
@@ -12074,6 +12074,19 @@ form {
 
 .btn-footer:hover {
   color: #FA5959;
+}
+
+.menu-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-footer:hover a {
+  color: #FA5959;
+}
+
+.iconos:hover {
+  background-color: #FA5959;
 }
 
 /* QUERIES */
